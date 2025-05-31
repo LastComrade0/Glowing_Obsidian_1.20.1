@@ -1,4 +1,4 @@
-package net.lastcomrade0.datagen;
+package net.lastcomrade0.glowing_obsidian.datagen;
 
 import net.lastcomrade0.glowing_obsidian.GlowingObsidian;
 import net.minecraft.core.HolderLookup;
