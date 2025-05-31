@@ -23,6 +23,9 @@ public class GlowingObsidianBlock {
     public static final RegistryObject<Block> GLOWING_OBSIDIAN_BLOCK = registerBlock("glowing_obsidian",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN).lightLevel(state -> 14).requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> GLOWING_OBSIDIAN_LEGACY_BLOCK = registerBlock("glowing_obsidian_legacy",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN).lightLevel(state -> 14).requiresCorrectToolForDrops()));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         //Registers block
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

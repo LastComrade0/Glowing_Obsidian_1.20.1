@@ -205,3 +205,8 @@ publishing {
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
+
+//Condition for data generation for already existing Model JSON
+tasks.named('processResources', Copy).configure {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}

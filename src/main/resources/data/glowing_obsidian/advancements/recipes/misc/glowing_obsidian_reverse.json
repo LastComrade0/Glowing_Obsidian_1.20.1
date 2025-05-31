@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glowing_obsidian_legacy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "glowing_obsidian:glowing_obsidian_legacy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "glowing_obsidian:glowing_obsidian_cut"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_glowing_obsidian_legacy",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "glowing_obsidian:glowing_obsidian_reverse_cut"
+    ]
+  },
+  "sends_telemetry_event": false
+}

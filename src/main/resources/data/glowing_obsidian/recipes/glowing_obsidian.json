@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "G G",
+    " O ",
+    "G G"
+  ],
+  "result": {
+    "item": "glowing_obsidian:glowing_obsidian"
+  },
+  "show_notification": true
+}

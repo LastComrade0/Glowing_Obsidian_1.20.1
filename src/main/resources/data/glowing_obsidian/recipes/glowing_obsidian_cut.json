@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "glowing_obsidian:glowing_obsidian"
+  },
+  "result": "glowing_obsidian:glowing_obsidian_legacy",
+  "count": 1
+}

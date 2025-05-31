@@ -1,3 +1,6 @@
 {
-  "values": ["glowing_obsidian:glowing_obsidian"]
+  "values": [
+    "glowing_obsidian:glowing_obsidian",
+    "glowing_obsidian:glowing_obsidian_legacy"
+  ]
 }
